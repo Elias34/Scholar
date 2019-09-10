@@ -9,12 +9,6 @@ package scholar1;
  *
  * @author estudiante
  */
-public class Empleado extends Persona {
-
-   
-
-     
-
-    
+class JOptionpane {
     
 }

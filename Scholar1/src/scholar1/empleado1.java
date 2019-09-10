@@ -9,12 +9,10 @@ package scholar1;
  *
  * @author estudiante
  */
-public class Empleado extends Persona {
+class empleado1 {
 
-   
-
-     
-
-    
+    static int año_nacimiento;
+    static int año_actual;
+    static int nextInt;
     
 }
