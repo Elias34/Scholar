@@ -23,7 +23,7 @@ public class Ventana1 extends JFrame {
          
        
        JLabel etiqueta2 = new JLabel ("Apellido");
-       JTextField texto2 = new JTextField(2);
+       JTextField texto2 = new JTextField(25);
        cp.add(etiqueta2);
        cp.add(texto2);
        
