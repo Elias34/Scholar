@@ -28,7 +28,7 @@ class Operacion {
                 + "2. Escribir Array \n"
                 + "3. Sumatoria \n"
                 + "4. Productoria \n"
-                + "5. TamaÃ±o del Array \n"
+                + "5. Tamaño del Array \n"
                 + "6. Opcion SALIR \n"
                 + "Escoja opcion");
         Scanner lectura = new Scanner(System.in);
@@ -39,6 +39,9 @@ class Operacion {
      //lee el arreglo 
     public void leerArreglo(){
         System.out.println("Ingreso a la opcion numero 1");
+        
+        
+        this.mostrarMenu();
     
     
     
@@ -46,18 +49,26 @@ class Operacion {
     //Escribir arreglo
     public void escribirArreglo(){
         System.out.println("Ingreso a la opcion numero 2");
+       
         
+        this.mostrarMenu();
     }
     
     //Genera sumatoria
     public void sumatoria(){
         System.out.println("Ingreso a la opcion numero 3");
+       
         
+        
+        this.mostrarMenu();
     }
     //Genera productoria
     public void productoria(){
         System.out.println("Ingreso a la opcion numero 4");
+       
         
+        
+        this.mostrarMenu();
     }
     
     public void cargarOpcion(int op){
@@ -90,6 +101,12 @@ class Operacion {
         
         
     }
+    public void limpiar(int lineas){
+   for (int i=0; i < lineas; i++)
+    {
+    System.out.println("");
+     }
+}
     
     
 }
