@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package personas1;
+package quiz;
+
+import java.util.Scanner;
 
 /**
  *
  * @author estudiante
  */
-public class Personas1 {
+public class Quiz {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Personas instancia1=new Personas();
-        
+       Persona lectura = new Scanner();
+       
     }
     
 }
