@@ -27,7 +27,7 @@ public class Persona {
      public int op;
      
      
-     public void mostrarMenu(){
+     public void menu(){
          System.out.println("Bienvenido al menu\n"
                  + "1.LLenar el array con sus datos\n"
                  + "2.Mostrar sus datos\n"
@@ -41,7 +41,7 @@ public class Persona {
      }
      
     @SuppressWarnings("empty-statement")
-     public void llenarArray(){
+     public void llenar(){
          Persona[]numeros=new Persona[5];
          System.out.println("Ingreso a la primera opcion");
          
@@ -65,10 +65,7 @@ public class Persona {
      }
              
         
-         public void mostrarArreglo(){
          
-             System.out.println("");
-  }
      
      
      
@@ -77,11 +74,11 @@ public class Persona {
          
          switch (op){
              case 1: 
-                 this.llenarArray();
+                 this.menu();
                  break;
            
              case 2:
-                 this.mostrarArray();
+                 this.llenar();
                  break;
                  
              case 3:
